@@ -1,0 +1,166 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     undersample
+Instances:    412
+Attributes:   29
+              WCHU_fanIn
+              ck_oo_fanIn
+              ck_oo_cbo
+              WCHU_cbo
+              LDHH_numberOfAttributesInherited
+              ck_oo_numberOfAttributesInherited
+              WCHU_dit
+              WCHU_numberOfAttributesInherited
+              numberOfHighPriorityBugsFoundUntil:
+              CvsEntropy
+              numberOfCriticalBugsFoundUntil:
+              ck_oo_numberOfPrivateMethods
+              LDHH_numberOfPrivateMethods
+              WCHU_numberOfPrivateAttributes
+              ck_oo_numberOfPrivateAttributes
+              ck_oo_numberOfMethods
+              WCHU_numberOfPublicMethods
+              CvsLinEntropy
+              WCHU_numberOfAttributes
+              LDHH_numberOfPublicAttributes
+              ck_oo_numberOfPublicAttributes
+              ck_oo_numberOfAttributes
+              ck_oo_dit
+              WCHU_numberOfMethodsInherited
+              LDHH_numberOfMethods
+              WCHU_fanOut
+              WCHU_noc
+              ck_oo_numberOfLinesOfCode
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+CvsEntropy <= 12.236
+|   WCHU_numberOfMethodsInherited <= 4.1
+|   |   WCHU_numberOfPrivateAttributes <= 0
+|   |   |   LDHH_numberOfPublicAttributes <= 0.000186
+|   |   |   |   CvsEntropy <= 9.5041
+|   |   |   |   |   LDHH_numberOfPrivateMethods <= 0
+|   |   |   |   |   |   LDHH_numberOfAttributesInherited <= 0.001421
+|   |   |   |   |   |   |   WCHU_numberOfMethodsInherited <= 1.02
+|   |   |   |   |   |   |   |   ck_oo_numberOfAttributesInherited <= 1
+|   |   |   |   |   |   |   |   |   numberOfCriticalBugsFoundUntil: <= 0
+|   |   |   |   |   |   |   |   |   |   ck_oo_fanIn <= 0
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfLinesOfCode <= 92: clean (2.0)
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfLinesOfCode > 92: buggy (2.0)
+|   |   |   |   |   |   |   |   |   |   ck_oo_fanIn > 0: clean (45.0/2.0)
+|   |   |   |   |   |   |   |   |   numberOfCriticalBugsFoundUntil: > 0
+|   |   |   |   |   |   |   |   |   |   WCHU_numberOfMethodsInherited <= 0: buggy (2.0)
+|   |   |   |   |   |   |   |   |   |   WCHU_numberOfMethodsInherited > 0: clean (4.0)
+|   |   |   |   |   |   |   |   ck_oo_numberOfAttributesInherited > 1
+|   |   |   |   |   |   |   |   |   ck_oo_numberOfPrivateAttributes <= 0: buggy (6.0/1.0)
+|   |   |   |   |   |   |   |   |   ck_oo_numberOfPrivateAttributes > 0: clean (4.0)
+|   |   |   |   |   |   |   WCHU_numberOfMethodsInherited > 1.02: clean (45.0)
+|   |   |   |   |   |   LDHH_numberOfAttributesInherited > 0.001421
+|   |   |   |   |   |   |   numberOfHighPriorityBugsFoundUntil: <= 0
+|   |   |   |   |   |   |   |   WCHU_dit <= 0
+|   |   |   |   |   |   |   |   |   ck_oo_dit <= 1: clean (2.0)
+|   |   |   |   |   |   |   |   |   ck_oo_dit > 1
+|   |   |   |   |   |   |   |   |   |   ck_oo_dit <= 2: buggy (6.0)
+|   |   |   |   |   |   |   |   |   |   ck_oo_dit > 2
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfAttributes <= 1: clean (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfAttributes > 1: buggy (2.0)
+|   |   |   |   |   |   |   |   WCHU_dit > 0
+|   |   |   |   |   |   |   |   |   ck_oo_numberOfMethods <= 5: clean (11.0)
+|   |   |   |   |   |   |   |   |   ck_oo_numberOfMethods > 5
+|   |   |   |   |   |   |   |   |   |   ck_oo_fanIn <= 2: buggy (2.0)
+|   |   |   |   |   |   |   |   |   |   ck_oo_fanIn > 2: clean (2.0)
+|   |   |   |   |   |   |   numberOfHighPriorityBugsFoundUntil: > 0: clean (4.0)
+|   |   |   |   |   LDHH_numberOfPrivateMethods > 0: clean (8.0)
+|   |   |   |   CvsEntropy > 9.5041
+|   |   |   |   |   ck_oo_cbo <= 13: buggy (9.0/1.0)
+|   |   |   |   |   ck_oo_cbo > 13: clean (3.0)
+|   |   |   LDHH_numberOfPublicAttributes > 0.000186: clean (9.0)
+|   |   WCHU_numberOfPrivateAttributes > 0
+|   |   |   ck_oo_numberOfLinesOfCode <= 484
+|   |   |   |   ck_oo_fanIn <= 1
+|   |   |   |   |   ck_oo_numberOfPrivateAttributes <= 4: buggy (5.0/1.0)
+|   |   |   |   |   ck_oo_numberOfPrivateAttributes > 4: clean (4.0)
+|   |   |   |   ck_oo_fanIn > 1: clean (14.0)
+|   |   |   ck_oo_numberOfLinesOfCode > 484: buggy (3.0)
+|   WCHU_numberOfMethodsInherited > 4.1
+|   |   WCHU_noc <= 0
+|   |   |   LDHH_numberOfAttributesInherited <= 0.033278: buggy (17.0/1.0)
+|   |   |   LDHH_numberOfAttributesInherited > 0.033278
+|   |   |   |   WCHU_fanOut <= 1.01: clean (14.0/2.0)
+|   |   |   |   WCHU_fanOut > 1.01: buggy (3.0)
+|   |   WCHU_noc > 0: clean (4.0)
+CvsEntropy > 12.236
+|   numberOfHighPriorityBugsFoundUntil: <= 2
+|   |   CvsLinEntropy <= 0.025166
+|   |   |   CvsEntropy <= 14.4405: clean (6.0)
+|   |   |   CvsEntropy > 14.4405: buggy (2.0)
+|   |   CvsLinEntropy > 0.025166
+|   |   |   numberOfCriticalBugsFoundUntil: <= 3
+|   |   |   |   WCHU_numberOfAttributes <= 4.05
+|   |   |   |   |   WCHU_noc <= 0
+|   |   |   |   |   |   LDHH_numberOfMethods <= 0.000853: buggy (29.0/1.0)
+|   |   |   |   |   |   LDHH_numberOfMethods > 0.000853
+|   |   |   |   |   |   |   LDHH_numberOfPrivateMethods <= 0.002466
+|   |   |   |   |   |   |   |   WCHU_numberOfPrivateAttributes <= 0
+|   |   |   |   |   |   |   |   |   ck_oo_cbo <= 22
+|   |   |   |   |   |   |   |   |   |   ck_oo_numberOfLinesOfCode <= 648
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfPublicAttributes <= 14
+|   |   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfAttributes <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   ck_oo_fanIn <= 5: buggy (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   ck_oo_fanIn > 5: clean (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfAttributes > 2: buggy (12.0)
+|   |   |   |   |   |   |   |   |   |   |   ck_oo_numberOfPublicAttributes > 14: clean (2.0)
+|   |   |   |   |   |   |   |   |   |   ck_oo_numberOfLinesOfCode > 648: clean (5.0)
+|   |   |   |   |   |   |   |   |   ck_oo_cbo > 22: buggy (9.0)
+|   |   |   |   |   |   |   |   WCHU_numberOfPrivateAttributes > 0
+|   |   |   |   |   |   |   |   |   LDHH_numberOfPrivateMethods <= 0
+|   |   |   |   |   |   |   |   |   |   ck_oo_numberOfMethods <= 21
+|   |   |   |   |   |   |   |   |   |   |   WCHU_numberOfMethodsInherited <= 5.07: buggy (5.0)
+|   |   |   |   |   |   |   |   |   |   |   WCHU_numberOfMethodsInherited > 5.07: clean (2.0)
+|   |   |   |   |   |   |   |   |   |   ck_oo_numberOfMethods > 21: clean (3.0)
+|   |   |   |   |   |   |   |   |   LDHH_numberOfPrivateMethods > 0: clean (3.0)
+|   |   |   |   |   |   |   LDHH_numberOfPrivateMethods > 0.002466: buggy (15.0/1.0)
+|   |   |   |   |   WCHU_noc > 0
+|   |   |   |   |   |   ck_oo_numberOfAttributes <= 3: clean (3.0/1.0)
+|   |   |   |   |   |   ck_oo_numberOfAttributes > 3: buggy (9.0)
+|   |   |   |   WCHU_numberOfAttributes > 4.05: buggy (18.0)
+|   |   |   numberOfCriticalBugsFoundUntil: > 3: buggy (13.0)
+|   numberOfHighPriorityBugsFoundUntil: > 2: buggy (33.0)
+
+Number of Leaves  : 	47
+
+Size of the tree : 	93
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         297               72.0874 %
+Incorrectly Classified Instances       115               27.9126 %
+Kappa statistic                          0.4417
+Mean absolute error                      0.3099
+Root mean squared error                  0.4883
+Relative absolute error                 61.9704 %
+Root relative squared error             97.6641 %
+Total Number of Instances              412     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.757    0.316    0.706      0.757    0.731      0.443    0.740     0.672     clean
+                 0.684    0.243    0.738      0.684    0.710      0.443    0.740     0.717     buggy
+Weighted Avg.    0.721    0.279    0.722      0.721    0.721      0.443    0.740     0.695     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 156  50 |   a = clean
+  65 141 |   b = buggy
