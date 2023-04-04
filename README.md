@@ -1,0 +1,7 @@
+# Effect-of-Resampling-on-Rule-based-models
+
+Project presents a comprehensive investigation into the class imbalance problem and the effectiveness of resampling techniques on rule-based interpretable defect prediction models. We analyze 47 publicly available datasets and employ three rule-based interpretable models to explore the impact of class imbalance on model performance and interpretability. Our study demonstrates the necessity of constructing interpretable models on imbalanced data and highlights the substantial influence of resampling techniques on feature importance and model complexity.
+
+We contend that creating meaningful interpretable models on original but imbalanced data is not feasible due to low defect coverage and poor performance. To address this issue, we propose a novel approach that effectively deals with imbalanced data and outperforms other rule-based models. Our method not only enhances the performance of interpretable models but also ensures improved transparency and comprehensibility, which are crucial for practical applications and decision making.
+ 
+By emphasizing the importance of addressing class imbalance in building interpretable models and showcasing the value of resampling techniques, this paper contributes to the ongoing development and refinement of rule-based interpretable defect prediction models, ultimately broadening their utility and applicability across various domains.
